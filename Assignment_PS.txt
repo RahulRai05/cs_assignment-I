@@ -1,0 +1,14 @@
+Vulnerability Exploitation Prediction
+Build a machine learning classifier to predict whether a given CVE will be actively exploited in the wild. Leverage data from the National Vulnerability Database (NVD) for comprehensive vulnerability information and CISA's Known Exploited Vulnerabilities (KEV) catalog for ground truth labels. Students must research appropriate features from CVE metadata (CVSS scores, vulnerability types, affected software categories, temporal characteristics, description text), engineer meaningful predictors, and handle the severe class imbalance inherent in this problem. The assignment requires critical thinking about what makes vulnerabilities attractive to attackers, proper validation methodology to avoid data leakage, and consideration of the operational deployment context where false positives carry significant cost.
+ 
+Evaluation will be based on research depth (feature justification, related work), technical completeness (data collection, preprocessing, model selection, evaluation metrics appropriate for imbalanced classification), output quality (model performance, insights about exploitability patterns), and documentation (reproducibility, deployment considerations, limitations).
+Deliverables:
+- Jupyter notebook with complete pipeline
+- Trained classifier with evaluation metrics
+- Technical documentation explaining approach
+- Analysis of key exploitability indicators
+Learning Outcomes:
+- Real-world vulnerability risk assessment
+- Working with security databases and APIs
+- Imbalanced classification in security context
+- Prioritization for vulnerability management
